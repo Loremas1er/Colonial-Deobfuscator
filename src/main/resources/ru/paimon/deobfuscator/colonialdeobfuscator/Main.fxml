@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.paimon.deobfuscator.colonialdeobfuscator.MainCtr">
+   <children>
+      <TextField id="input_path" fx:id="input_path" layoutX="6.0" layoutY="14.0" prefHeight="25.0" prefWidth="535.0" promptText="input path" />
+      <Button id="input_path_add" fx:id="input_path_add" layoutX="547.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#onAddInputPathButtonClick" prefHeight="25.0" prefWidth="47.0" text="..." />
+      <TextField id="output_path" fx:id="output_path" layoutX="6.0" layoutY="45.0" prefHeight="25.0" prefWidth="535.0" promptText="output path" />
+      <Button id="output_path_add" fx:id="output_path_add" layoutX="547.0" layoutY="45.0" mnemonicParsing="false" onMouseClicked="#onAddOutputPathButtonClick" prefHeight="25.0" prefWidth="47.0" text="..." />
+      <CheckBox id="string_transformer" fx:id="string_transformer" layoutX="31.0" layoutY="82.0" mnemonicParsing="false" onMouseClicked="#onStringTransformerButtonClick" text="String Transformer" />
+      <CheckBox id="flow_transformer" fx:id="flow_transformer" layoutX="31.0" layoutY="110.0" mnemonicParsing="false" onMouseClicked="#onFlowTransformerButtonClick" text="Flow Transformer" />
+      <CheckBox id="boolean_transformer" fx:id="boolean_transformer" layoutX="31.0" layoutY="138.0" mnemonicParsing="false" onMouseClicked="#onBooleanTransformerButtonClick" text="Boolean Transformer" />
+      <CheckBox id="number_transformer" fx:id="number_transformer" layoutX="31.0" layoutY="166.0" mnemonicParsing="false" onMouseClicked="#onNumberTransformerButtonClick" text="Number Transformer" />
+      <CheckBox id="access_transformer" fx:id="access_transformer" layoutX="31.0" layoutY="194.0" mnemonicParsing="false" onMouseClicked="#onAccessTransformerButtonClick" text="Access Transformer" />
+      <Button id="output_path_add" fx:id="deobfuscate" layoutX="434.0" layoutY="78.0" mnemonicParsing="false" onMouseClicked="#onDeobfuscateButtonClick" prefHeight="25.0" prefWidth="113.0" text="Деобфуцировать" />
+   </children>
+</AnchorPane>

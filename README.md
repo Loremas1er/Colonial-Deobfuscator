@@ -1,7 +1,7 @@
 # Colonial-Deobfuscator (GUI)
 ![image](https://github.com/Loremas1er/Colonial-Deobfuscator/assets/88497195/86e873a8-3ff4-40da-95a0-688413263972)
 
-This utility will help you restore the code that corrupted Colonail.
+This utility will help you restore the code that corrupted [Colonail Obfuscator](https://github.com/ColonialBuilders/ColonialObfuscator)
 
 ## Usage
 1. Select the path to our jar in the "input path" field
